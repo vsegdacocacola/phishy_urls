@@ -9,11 +9,7 @@ Performs simple lookups of suspicious phishy URLs. No API KEYs required:
 
 # Installation
 
-<<<<<<< HEAD
 1. Requires chrome as well as [chrome driver](https://chromedriver.chromium.org/)
-=======
-1. Requires chrome as well as chrome driver driver.
->>>>>>> 008c497412df24e8dfa2ed2c0f7c25e2602bb67c
 
 2. Change PATH variable to location of chromedriver 
 
