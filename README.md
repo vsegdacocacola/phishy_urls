@@ -9,6 +9,20 @@ Performs simple lookups of suspicious phishy URLs. No API KEYs required:
 
 # Installation
 
-1. Requires chrome driver. Can be downloaded here https://chromedriver.chromium.org/
+1. Requires chrome as well as [chrome driver](https://chromedriver.chromium.org/)
 
 2. Change PATH variable to location of chromedriver 
+
+3. Setup virtualenv and install required packages
+
+```bash
+virtualenv env
+source bin/activate
+pip install -r requirements.txt
+```
+
+# Run
+
+```bash
+python lookuper.py
+```
