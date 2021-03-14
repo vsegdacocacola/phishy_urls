@@ -8,6 +8,8 @@ from selenium.webdriver.chrome.options import Options
 from flask import render_template
 from time import sleep
 
+PATH = "<path to chromedriver>"
+
 # Init app
 app = Flask(__name__, template_folder='static')
 
@@ -125,7 +127,7 @@ def make_screenshot_mobile():
         device = request.json['device']
     else:
         device = ""
-    PATH = "C:\\Users\\123\\Desktop\\dev\\lookuper\\chromedriver.exe"
+
     if(device=="mobile"):
         device_emulation = {
             "userAgent": "Mozilla/5.0 (iPod; CPU iPhone OS 12_0 like macOS) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/12.0 Mobile/14A5335d Safari/602.1.50"
